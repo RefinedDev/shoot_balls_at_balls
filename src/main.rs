@@ -255,7 +255,7 @@ fn main() {
     };
     
     // Setting up the window and running
-    let (mut ctx, event_loop) = ContextBuilder::new("Something", "RefinedDev")
+    let (mut ctx, event_loop) = ContextBuilder::new("Shoot balls at balls", "RefinedDev")
     .window_setup(ggez::conf::WindowSetup::default().title("Shoot balls at balls").vsync(true))
     .add_resource_path(resource_dir)
         .build()
